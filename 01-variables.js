@@ -27,9 +27,12 @@ usuario.mascotas = {};
 usuario.mascotas.nombre = 'Aicha';
 console.log(usuario);
 
-console.log(typeof nombre);
-console.log(typeof edad);
-console.log(typeof deudas);
+console.log(typeof nombre); //string
+console.log(typeof edad); //number
+console.log(typeof deudas); //number
+console.log(typeof vacia); //object
+console.log(typeof noDefindo); //undefined
+
 
 
 
