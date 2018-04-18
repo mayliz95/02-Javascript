@@ -17,22 +17,33 @@ console.log(-1 ? "Verdadero" : "Falso"); //Verdadero*/
 var usuario = {
     "nombre": "Mayra",
     apellido: 'Rosero',
-    edad: 22
+    edad: 22,
+    imprimirEnConsola: function () {
+        console.log(this.nombre + ' ' + this.apellido +' '+this.edad);
+    }
 };
 
-console.log(usuario);
+/*console.log(usuario);
 delete usuario.apellido;
 usuario.cedula = '1003308960';
 usuario.mascotas = {};
 usuario.mascotas.nombre = 'Aicha';
-console.log(usuario);
+console.log(usuario);*/
 
-console.log(typeof nombre); //string
+/*console.log(typeof nombre); //string
 console.log(typeof edad); //number
 console.log(typeof deudas); //number
 console.log(typeof vacia); //object
-console.log(typeof noDefindo); //undefined
+console.log(typeof noDefindo); //undefined*/
 
+function sumaDosNumeros(numeroUno, numeroDos) {
+    return numeroUno + numeroDos;
 
+}
+console.log(sumaDosNumeros(1,2));
+
+var sumaDosNumerosVersionDos = function (numeroUno, numeroDos) {
+    return numeroUno + numeroDos;
+};
 
 
