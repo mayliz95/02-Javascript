@@ -7,7 +7,8 @@ var fecha = new Date();
 var casado = false;
 var vacia = null;
 var noDefindo = undefined;
-
+var arreglo = [sumaDosNumeros, noDefindo, nombre, fecha, deudas];
+console.log(arreglo);
 /*console.log(vacia ? "Verdadero" : "Falso");  //Falso
 console.log(noDefindo ? "Verdadero" : "Falso"); //Falso
 console.log(0 ? "Verdadero" : "Falso"); //Falso
